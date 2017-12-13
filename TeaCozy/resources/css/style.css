@@ -1,0 +1,134 @@
+html {
+  background-color: black;
+  opacity: 0.9;
+  font-family: Helvetica;
+  color: seashell;
+}
+
+.header {
+  display: flex;
+  border-bottom: 1px solid seashell;
+  position: fixed;
+  background-color: black;
+  z-index: 10;
+  height: 69px;
+
+}
+
+.logo {
+  display: flex;
+  width: 950px;
+  margin-left: 10px;
+  height: 50px;
+}
+
+.headerlist {
+  display: flex;
+}
+
+.headerlist li {
+  font-family: Helvetica;
+  font-size: 15px;
+  font-weight: bold;
+  display: inline-flex;
+  color: white;
+}
+
+.MissionImage {
+  display: flex;
+}
+
+.MissionImage {
+  position: relative;
+  height: 700px;
+  width: 1200px;
+}
+
+.ourmission {
+  top: 50%;
+  position: absolute;
+  font-weight: bold;
+  background-color: black;
+  text-align: center;
+  width: 1200px;
+}
+
+.titletext {
+  display: flex;
+  justify-content: center;
+}
+
+.threeboxes {
+  display: flex;
+  width: 1200px;
+  justify-content: space-between;
+}
+
+.threeboxes img {
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+}
+
+.threeboxtext {
+  display: flex;
+  justify-content: space-between;
+}
+
+.twoboxes {
+  display: flex;
+  width: 1200px;
+  justify-content: center;
+}
+
+.twoboxes img {
+  width: 300px;
+  height: 200px;
+  margin: 10px 10px;
+}
+
+.twoboxtext {
+  display: flex;
+  justify-content: center;
+}
+
+.bottomimage {
+  display: flex;
+  flex-direction: row;
+	justify-content: space-between;
+	position: relative;
+  width: 1200px;
+  height: 500px;
+}
+
+.bottomimage div {
+  position: absolute;
+  margin-top: 40px;
+  margin-left: 40px;
+  width: 300px;
+	height: 200px;
+	background-color: black;
+}
+
+  .box1 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 300px;
+  	height: 200px;
+  	background-color: black;
+  }
+
+  .box2 {
+    position: absolute;
+    margin-top: 40px;
+    margin-left: 40px;
+    width: 300px;
+    height: 200px;
+    background-color: black;
+  }
+
+.bottomtext {
+  display: flex;
+  justify-content: center;
+}
